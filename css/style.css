@@ -799,6 +799,7 @@ canvas{
 }
 
 .skillbar .skillbar-title {
+    width: 90%;
     display: inline-block;
     vertical-align: middle;
     font-size: 20px;
