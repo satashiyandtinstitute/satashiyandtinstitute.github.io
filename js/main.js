@@ -13,8 +13,10 @@ $(document).ready(function () {
 		var menu_area = $('.nav-area');
 		if ($(window).scrollTop() > 200) {
 			menu_area.addClass('sticky_navigation');
+            document.getElementById('ndt').style.color = '#000080';
 		} else {
-			menu_area.removeClass('sticky_navigation');
+            menu_area.removeClass('sticky_navigation');
+            document.getElementById('ndt').style.color = '#FFFFFF';
 		}
 	});
 
